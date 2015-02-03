@@ -1,0 +1,13 @@
+ru:
+  lng_name: "Русский(RU)"
+  language: "Язык"
+  home_page: "Главная"
+  current_active_page: "активная страница"
+  help: "Помощь"
+  site_title: "Как вернуть любимого"
+  site_head: "Cайт помощи одиноким женщинам"
+  site_is_under_construction: "Сайт пока находится в стадии разработки."
+  site_is_waiting_for_content: "Ожидается дизайн, контент и прочая фигня..."
+
+  help_page: "Страница помощи"
+  help_page_description: "На этой странице будет информация о сайте, навигации, а так же полезные советы"
