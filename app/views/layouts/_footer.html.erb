@@ -1,0 +1,13 @@
+<footer class="footer">
+  <div class="container">
+    <small>
+      <%= link_to "\"#{t(:site_title)}\"", root_path(locale: I18n.locale.to_s) %>
+    </small>
+    <nav>
+      <ul>
+        <li><%= link_to t(:about), about_path(locale: I18n.locale.to_s) %></li>
+        <li><%= link_to t(:help), help_path(locale: I18n.locale.to_s) %></li>
+      </ul>
+    </nav>
+  </div>
+</footer>

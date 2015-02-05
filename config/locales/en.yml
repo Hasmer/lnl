@@ -24,6 +24,7 @@ en:
   language: "Language"
   current_active_page: "current page"
   help: "Help"
+  about: "About"
   home_page: "Home"
   site_title: "Bring it back"
   site_head: "Lonely Bay"
@@ -32,3 +33,6 @@ en:
 
   help_page: "Help page"
   help_page_description: "This page will contain information about site, navigation and useful tips"
+
+  about_page: "About Page"
+  help_page_description: "This page will contain information about us and our goals"
