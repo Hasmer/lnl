@@ -1,10 +1,32 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
 ru:
   lng_name: "Русский(RU)"
   language: "Язык"
-  home_page: "Главная"
-  about: "О нас"
   current_active_page: "активная страница"
   help: "Помощь"
+  about: "О нас"
+  signup: "Sign up"
+  home_page: "Главная"
 
   site_title: "Как вернуть любимого"
   site_head: "Cайт помощи одиноким женщинам"
@@ -16,3 +38,6 @@ ru:
 
   about_page: "Страница о нас"
   about_page_description: "На этой странице будет информация о нас и о наших целях"
+
+  signup_page: "Страница регистрации"
+  signup_page_description: "Здесь вы можете создать учётную запись"

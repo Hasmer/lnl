@@ -63,6 +63,7 @@
 -->
           </ul>
         </li>
+        <li class="<%= 'active' if controller_name == "users" && action_name == "new" %>"><%= link_to t(:about), signup_path(locale: I18n.locale.to_s) %></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
