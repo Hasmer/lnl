@@ -1,0 +1,19 @@
+ru:
+  activerecord:
+    attributes:
+      user:
+        name: "Имя пользователя"
+        email: "Почтовый адрес"
+        password: "Пароль"
+        password_confirmation: "Подтверждение пароля"
+    errors:
+      messages:
+        blank: "не может быть пустым"
+        invalid: "имеет неверный формат"
+  errors:
+    attributes:
+      password:
+        too_short: "слишком короткий"
+
+
+      # will translate User attribute "login" as "Handle"
