@@ -12,9 +12,12 @@
 <body>
 <%= render 'layouts/header' %>
 <h2 class="centered"><%= t :site_head %></h2>
-<div class="container">
-  <%= yield %>
+<div class="container-fluid">
+  <div class="jumbotron">
+    <%= yield %>
+  </div>
 </div>
 <%= render 'layouts/footer' %>
+<%= debug(params) if Rails.env.development? %>
 </body>
 </html>

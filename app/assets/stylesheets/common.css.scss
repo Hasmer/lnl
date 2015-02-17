@@ -1,3 +1,8 @@
+@mixin box-sizing {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
 
 .lefted {text-align:left;}
 .centered {text-align:center;}
@@ -8,6 +13,15 @@
 
 
 .navbar .logo img {height:50px; margin-right:20px;}
+
+
+.debug_dump {
+  clear: both;
+  float: left;
+  width: 100%;
+  margin-top: 45px;
+  @include box_sizing;
+}
 
 
 footer {
